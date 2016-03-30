@@ -10,9 +10,12 @@ public class Guppy {
     public Guppy(){
     }
 
-    public Guppy(String finColor, int gallons, boolean pregnant){
+    public Guppy(String finColor, int gallons){
         tailFinColor = finColor;
         gallonsOfFishTank = gallons;
+    }
+
+    private Guppy(boolean pregnant) {
         isPregnant = pregnant;
     }
 
